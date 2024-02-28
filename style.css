@@ -4,6 +4,7 @@ body{
     background-color:steelblue;
     color:whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
 }
 
 h1{
@@ -16,7 +17,7 @@ h1{
 
 .navbar ul{
     list-style-type: none;
-    background-color:powderblue;
+    background-color:lightcyan;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -30,10 +31,55 @@ h1{
     text-align: center;
 }
 .navbar a:hover{
-    background-color:whitesmoke;
+    background-color: lightskyblue;
 }
 
 .navbar li{
     float:left;
 }
 
+h1 {
+    text-shadow: 2px 2px 5px lightblue;
+  }
+
+a:hover {
+    color: goldenrod;
+}
+
+.content {
+    padding: 16px;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+  a:link {
+    color: black;
+  }
+  
+    a:visited {
+    color: navy;
+  }
+ 
+a:hover {
+    color: goldenrod;
+  }
+
+  a:active {
+    color: navy;
+  }
+
+  li {
+    border-right: 1px solid grey;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
