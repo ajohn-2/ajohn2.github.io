@@ -5,8 +5,7 @@ body{
     color:whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
-    text-align: center;
-  
+    text-align: center ;
 }
 
 h1{
@@ -71,7 +70,7 @@ a:hover {
   }
  
 a:hover {
-    color: goldenrod;
+    color: lightskyblue;
   }
 
   a:active {
@@ -89,7 +88,7 @@ a:hover {
   .text-center {
     text-align: center;
   }
-  
+
 #fname{}
 #lname{}
 #email{}
